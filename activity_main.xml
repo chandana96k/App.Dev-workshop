@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/black_ops_one"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="The Avengers Union"
+            android:textColor="#F8D9D9"
+            android:textSize="48sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:backgroundTint="#F8D9D9"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imgtony"
+                    android:layout_width="160dp"
+                    android:layout_height="182dp"
+                    app:srcCompat="@drawable/tony" />
+
+                <TextView
+                    android:id="@+id/txttony"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_toRightOf="@id/imgtony"
+                    android:drawableLeft="@drawable/baseline_person"
+                    android:text="Tony Stark"
+                    android:textColor="#1C38D5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txttonyph"
+                    android:layout_width="162dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_toRightOf="@id/imgtony"
+                    android:drawableLeft="@drawable/baseline_phone"
+                    android:text="123456789"
+                    android:textColor="#1C38D5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:backgroundTint="#F8D9D9"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imgnatasha"
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/natasha" />
+
+                <TextView
+                    android:id="@+id/txtnatasha"
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_toRightOf="@id/imgnatasha"
+                    android:drawableLeft="@drawable/baseline_person"
+                    android:text="Natasha"
+                    android:textColor="#1C38D5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txtnatashaph"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_toRightOf="@id/imgnatasha"
+                    android:drawableLeft="@drawable/baseline_phone"
+                    android:text="688456789"
+                    android:textColor="#1C38D5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:backgroundTint="#F8D9D9"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imghulk"
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/hulk" />
+
+                <TextView
+                    android:id="@+id/txthulk"
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_toRightOf="@id/imghulk"
+                    android:drawableLeft="@drawable/baseline_person"
+                    android:text="Hulk"
+                    android:textColor="#1C38D5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txthulkph"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_toRightOf="@id/imghulk"
+                    android:drawableLeft="@drawable/baseline_phone"
+                    android:text="347456789"
+                    android:textColor="#1C38D5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:backgroundTint="#F8D9D9"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imgthor"
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/thor" />
+
+                <TextView
+                    android:id="@+id/txtthor"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_toRightOf="@id/imgthor"
+                    android:drawableLeft="@drawable/baseline_person"
+                    android:text="Thor Odinson"
+                    android:textColor="#1C38D5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txtthorph"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_toRightOf="@id/imgthor"
+                    android:text="624556789"
+                    android:drawableLeft="@drawable/baseline_phone"
+                    android:textColor="#1C38D5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
